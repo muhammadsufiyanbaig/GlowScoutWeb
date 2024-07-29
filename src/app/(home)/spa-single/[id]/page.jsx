@@ -23,7 +23,7 @@ function Star1({ filled, onClick }) {
     </svg>
   );
 }
-const page = ({ params }) => {
+const SpaSingle = ({ params }) => {
   const [localReviews, setLocalReviews] = useState([
     { rating: 0 },
     { rating: 0 },
@@ -216,4 +216,4 @@ const page = ({ params }) => {
   );
 };
 
-export default page;
+export default SpaSingle;
